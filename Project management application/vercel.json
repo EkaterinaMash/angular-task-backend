@@ -3,7 +3,10 @@
   "builds": [
     {
       "src": "dist/src/index.js",
-      "use": "@now/node"
+      "use": "@now/node",
+      "config": {
+        "nodeVersion": "16"
+      }
     }
   ],
   "routes": [
